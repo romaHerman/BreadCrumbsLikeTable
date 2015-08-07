@@ -14,6 +14,8 @@
 		E16FE4021B74B54500DE9EAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16FE4011B74B54500DE9EAC /* Images.xcassets */; };
 		E16FE4051B74B54500DE9EAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E16FE4031B74B54500DE9EAC /* LaunchScreen.xib */; };
 		E16FE4111B74B54500DE9EAC /* BreadcrumbsTblVExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E16FE4101B74B54500DE9EAC /* BreadcrumbsTblVExampleTests.m */; };
+		E16FE41C1B74B71600DE9EAC /* BreadCrumbTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E16FE41B1B74B71600DE9EAC /* BreadCrumbTableViewCell.m */; };
+		E16FE41E1B74C16900DE9EAC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16FE41D1B74C16900DE9EAC /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		E16FE40A1B74B54500DE9EAC /* BreadcrumbsTblVExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreadcrumbsTblVExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16FE40F1B74B54500DE9EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E16FE4101B74B54500DE9EAC /* BreadcrumbsTblVExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreadcrumbsTblVExampleTests.m; sourceTree = "<group>"; };
+		E16FE41A1B74B71600DE9EAC /* BreadCrumbTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreadCrumbTableViewCell.h; sourceTree = "<group>"; };
+		E16FE41B1B74B71600DE9EAC /* BreadCrumbTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreadCrumbTableViewCell.m; sourceTree = "<group>"; };
+		E16FE41D1B74C16900DE9EAC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E16FE41E1B74C16900DE9EAC /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,7 @@
 		E16FE3E81B74B54500DE9EAC = {
 			isa = PBXGroup;
 			children = (
+				E16FE41D1B74C16900DE9EAC /* QuartzCore.framework */,
 				E16FE3F31B74B54500DE9EAC /* BreadcrumbsTblVExample */,
 				E16FE40D1B74B54500DE9EAC /* BreadcrumbsTblVExampleTests */,
 				E16FE3F21B74B54500DE9EAC /* Products */,
@@ -89,6 +96,8 @@
 				E16FE4011B74B54500DE9EAC /* Images.xcassets */,
 				E16FE4031B74B54500DE9EAC /* LaunchScreen.xib */,
 				E16FE3F41B74B54500DE9EAC /* Supporting Files */,
+				E16FE41A1B74B71600DE9EAC /* BreadCrumbTableViewCell.h */,
+				E16FE41B1B74B71600DE9EAC /* BreadCrumbTableViewCell.m */,
 			);
 			path = BreadcrumbsTblVExample;
 			sourceTree = "<group>";
@@ -221,6 +230,7 @@
 			files = (
 				E16FE3FD1B74B54500DE9EAC /* ViewController.m in Sources */,
 				E16FE3FA1B74B54500DE9EAC /* AppDelegate.m in Sources */,
+				E16FE41C1B74B71600DE9EAC /* BreadCrumbTableViewCell.m in Sources */,
 				E16FE3F71B74B54500DE9EAC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
